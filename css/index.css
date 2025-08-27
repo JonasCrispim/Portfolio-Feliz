@@ -19,31 +19,12 @@ header {
     margin-right: 20px;
 }
 
-#quadrado {
-    display: inline-block;
-    width: 627px;
-    height: 184px;
-    background-color: #3A4042;
-    filter: drop-shadow(10px 10px 0 #000);
-    text-align: center;
-    margin: 116px 722px 497px 91px;
-}
-
-h1 {
-    color: #F25A70;
-    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    text-shadow: 4px 4px 0 #000;
-    margin-top: 42px;
-}
-
 h2 {
     color: #fff;
-    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
+    font-family: 'Press Start 2P', sans-serif;
     text-shadow: 4px 4px 0 #000;
     font-size: 30px;
 }
-
 
 a::before {
     content: "";
