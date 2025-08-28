@@ -1,0 +1,18 @@
+.button {
+    margin-right: 0;
+    display: inline-block;
+    padding: 18px 20px;
+    background-color: #F25A70;
+    box-shadow: 5px 5px 0 black;
+    transition: background-color 0.3s ease;
+    transition: transform 0.2s ease-in-out; /* Transição para propriedade transform */
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #f72e4c;
+    transform: scale(1.1); /* Efeito de escala ao passar o mouse */
+    cursor: pointer;
+}
