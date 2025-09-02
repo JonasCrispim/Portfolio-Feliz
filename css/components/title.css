@@ -4,3 +4,9 @@
     font-size: 40px;
     text-shadow: 4px 4px 0 #000;
 }
+/* Variação de componente*/
+.title.-second { /* Procurando na class Title e ao mesmo tempo a class Second */
+    color: #FFF;
+    text-align: center;
+    text-shadow: none;
+}
