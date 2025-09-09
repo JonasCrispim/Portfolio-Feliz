@@ -1,4 +1,4 @@
-.button {
+.main-button {
     margin-right: 0;
     display: inline-block;
     padding: 18px 20px;
@@ -11,7 +11,7 @@
     text-decoration: none;
 }
 
-.button:hover {
+.main-button:hover {
     background-color: #f72e4c;
     transform: scale(1.1); /* Efeito de escala ao passar o mouse */
     cursor: pointer;
