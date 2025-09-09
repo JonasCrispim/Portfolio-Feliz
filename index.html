@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/components/main-title.css">
     <link rel="stylesheet" href="css/components/subtitle.css">
     <link rel="stylesheet" href="css/components/box.css">
-    <link rel="stylesheet" href="css/components/action.css">
+    <link rel="stylesheet" href="css/components/main_action.css">
     <link rel="stylesheet" href="css/components/button.css">
     <link rel="stylesheet" href="css/components/section.css">
     <link rel="stylesheet" href="css/components/wrapper-skill.css">
@@ -33,11 +33,11 @@
         <img class="logo" src="assets/img/logo_Jonas.png" alt="Avatar do Jonas Crispim">
 
         <nav class="menu"> <!-- Navegation -->
-            <a class="action" href="" lang="en">Skills</a>
-            <a class="action" href="">Projetos</a>
-            <a class="action" href="">Sobre</a>
-            <a class="action" href="">Contatos</a>
-            <a class="button" href="" lang="en">Download CV</a>
+            <a class="main_action" href="#skills_section" lang="en">Skills</a>
+            <a class="main_action" href="#projects_section">Projetos</a>
+            <a class="main_action" href="#sobre_section">Sobre</a>
+            <a class="main_action" href="">Contatos</a>
+            <a class="button" href="cv/JONAS CRISPIM.pdf" download="en">Download CV</a>
         </nav>
 
     </header>
@@ -56,7 +56,7 @@
         </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="skills_section">
         <h2 class="main-title -second">Skills</h2>
 
         <div class="wrapper-skill">
@@ -122,16 +122,16 @@
         </div>
     </section> 
 
-    <section class="section -projetos">
+    <section class="section -projetos" id="projects_section">
         <h2 class="main-title -second">Projetos</h2>
         <div class="wrapper-card">
             <figure class="card-project">
-                <a href="http://reisports.com.br">
+                <a href="http://reisports.com.br" target="_blank">
                     <img class="logo-project" src="img/logoReiSports.png" alt="Logo Reisports" title="Ir para site Rei Sports">
                 </a>
             </figure>
             <figure class="card-project -red">
-                <a href="http://clecioestofados.com.br/">
+                <a href="http://clecioestofados.com.br/" target="_blank">
                     <img class="logo-project" src="img/logoClecio.png" alt="Logo Clécio Estofados" title="Ir para site Clécio Estofados">
                 </a>
             </figure>
@@ -143,7 +143,7 @@
         </div>
     </section>
 
-    <section class="section -sobre">
+    <section class="section -sobre" id="sobre_section">
         <h2 class="main-title -second">Sobre</h2>
     </section>
 </body>
