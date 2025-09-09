@@ -11,10 +11,10 @@
 
 .section.-projetos {
     background-color: #000;
+    border-color: #F25A70;
 }
 
-.list-projects {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.section.-sobre {
+    background-color: #7C5E99;
+    border-color: #000
 }

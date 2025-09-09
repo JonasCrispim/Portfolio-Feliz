@@ -23,12 +23,13 @@
     <link rel="stylesheet" href="css/components/wrapper-skill.css">
     <link rel="stylesheet" href="css/components/skill-tec.css">
     <link rel="stylesheet" href="css/components/progress-bar.css">
+    <link rel="stylesheet" href="css/components/wrapper-card.css">
     <link rel="stylesheet" href="css/components/card-project.css">
     
 </head>
 <body>
     
-    <header class="header">
+    <header id="headerBack" class="header">
         <img class="logo" src="assets/img/logo_Jonas.png" alt="Avatar do Jonas Crispim">
 
         <nav class="menu"> <!-- Navegation -->
@@ -123,17 +124,27 @@
 
     <section class="section -projetos">
         <h2 class="main-title -second">Projetos</h2>
-        <div class="list-projects">
+        <div class="wrapper-card">
             <figure class="card-project">
-                <img class="logo-project" src="img/logoReiSports.png" alt="Logo Reisports" title="Ir para site Rei Sports">
+                <a href="http://reisports.com.br">
+                    <img class="logo-project" src="img/logoReiSports.png" alt="Logo Reisports" title="Ir para site Rei Sports">
+                </a>
             </figure>
             <figure class="card-project -red">
-                <img class="logo-project" src="img/logoClecio.png" alt="Logo Clécio Estofados" title="Ir para site Clécio Estofados">
+                <a href="http://clecioestofados.com.br/">
+                    <img class="logo-project" src="img/logoClecio.png" alt="Logo Clécio Estofados" title="Ir para site Clécio Estofados">
+                </a>
             </figure>
             <figure class="card-project -red">
-                <img class="logo-project" src="img/logoPortfolio300x300.png" alt="Logo Portfólio" title="Você está aqui">
+                <a href="#headerBack">
+                    <img class="logo-project" src="img/logoPortfolio300x300.png" alt="Logo Portfólio" title="Você está aqui">
+                </a>
             </figure>
         </div>
+    </section>
+
+    <section class="section -sobre">
+        <h2 class="main-title -second">Sobre</h2>
     </section>
 </body>
 </html>
