@@ -25,6 +25,10 @@
     <link rel="stylesheet" href="css/components/progress-bar.css">
     <link rel="stylesheet" href="css/components/wrapper-card.css">
     <link rel="stylesheet" href="css/components/card-project.css">
+    <link rel="stylesheet" href="css/components/button-arrow.css">
+    <link rel="stylesheet" href="css/components/main-description.css">
+    <link rel="stylesheet" href="css/components/node-card.css">
+    <link rel="stylesheet" href="css/components/main-carousel.css">
     
 </head>
 <body>
@@ -135,7 +139,7 @@
                     <img class="logo-project" src="img/logoClecio.png" alt="Logo Clécio Estofados" title="Ir para site Clécio Estofados">
                 </a>
             </figure>
-            <figure class="card-project -red">
+            <figure class="card-project -pink">
                 <a href="#headerBack">
                     <img class="logo-project" src="img/logoPortfolio300x300.png" alt="Logo Portfólio" title="Você está aqui">
                 </a>
@@ -144,7 +148,50 @@
     </section>
 
     <section class="main-section -sobre" id="sobre_section">
-        <h2 class="main-title -second">Sobre</h2>
+        <h2 class="main-title -second">Sobre</h2>       
+
+        <section class="main-carousel">
+            <button class="button-arrow -left"><span class="content">Avançar</span></button>
+
+            <div class="itens">
+                <div class="elements">
+                    <figure class="node-card">
+                        <figcaption class="title">2021</figcaption>
+                        <div class="logo">
+                            <img src="img/logoUNIP01.png" alt="Logo UNIP - Universidade Paulista">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card">
+                        <figcaption class="title">2022</figcaption>
+                        <div class="logo">
+                            <img src="img/Softcomlogo.png" alt="Logo SOFTCOM">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card">
+                        <figcaption class="title">2022</figcaption>
+                        <div class="logo">
+                            <img src="img/logoUNIP01.png" alt="Logo UNIP - Universidade Paulista">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -first">
+                        <figcaption class="title">2025</figcaption>
+                        <div class="logo">
+                            <img src="img/r1Logo.png" alt="Logo R1Website">
+                        </div>
+                    </figure>
+                </div>
+            </div>
+
+            <button class="button-arrow -right"><span class="content">Voltar</span></button>
+            </section>
+            <p class="main-description">
+            Procuro sempre me atualizar à respeito de novas tecnologias que estão sempre saindo no mercado e não depender de apenas uma! Se algo pode ser feito mais rápido ou fácil, então eu procuro fazer. A área que eu mais curto por a mão na massa é a de client-side e construção de sites. Ainda estou aprendendo a codar de maneira melhor e mais eficiente, porém tenho muita experiência no WordPress (tecnologia que eu mais gosto) na construção de sites e plataformas e-commerce. Sei mexer no Bubble para criar aplicações mais robustas e no Framer para algo mais bonito aos olhos. Pretendo no futuro aprender tecnologias server-side para que eu possa me tornar um Dev Full-Stack.
+        </p>
     </section>
+
+    <script src="js/components/main-carousel.js"></script>
 </body>
 </html>
