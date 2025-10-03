@@ -16,3 +16,17 @@
     transform: scale(1.1); /* Efeito de escala ao passar o mouse */
     cursor: pointer;
 }
+
+.main-button.-submit {
+    width: 1360px;
+    font-size: 30px;
+    font-family: 'Fira Code';
+    font-weight: 300;
+    margin-top: 40px;
+}
+
+.main-button.-submit:hover {
+    background-color: #f72e4c;
+    transform: scale(1.07); /* Efeito de escala ao passar o mouse */
+    cursor: pointer;
+}

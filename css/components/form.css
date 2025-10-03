@@ -1,0 +1,39 @@
+form.form-example {
+    justify-content: center;
+    display: grid;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+.form-example.-name, .form-example.-email {
+    font-family: 'Fira Code';
+    font-size: 30px;
+    color: #fff;
+}
+
+#name, #email {
+    width: 1360px;
+    height: 50px;
+    border: 5px solid #000;
+    margin-bottom: 20px;
+}
+
+
+.mensage {
+    font-family: 'Fira Code';
+    font-size: 30px;
+    color: #fff;
+}
+
+#mensage {
+    width: 1360px;
+    height: 320px;
+    border: 5px solid #000;
+}

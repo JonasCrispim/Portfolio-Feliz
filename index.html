@@ -30,6 +30,8 @@
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-carousel.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
+    <link rel="stylesheet" href="css/components/form.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
     
 </head>
 <body>
@@ -191,6 +193,43 @@
             <p class="main-description">
             Procuro sempre me atualizar à respeito de novas tecnologias que estão sempre saindo no mercado e não depender de apenas uma! Se algo pode ser feito mais rápido ou fácil, então eu procuro fazer. A área que eu mais curto por a mão na massa é a de client-side e construção de sites. Ainda estou aprendendo a codar de maneira melhor e mais eficiente, porém tenho muita experiência no WordPress (tecnologia que eu mais gosto) na construção de sites e plataformas e-commerce. Sei mexer no Bubble para criar aplicações mais robustas e no Framer para algo mais bonito aos olhos. Pretendo no futuro aprender tecnologias server-side para que eu possa me tornar um Dev Full-Stack.
         </p>
+    </section>
+
+    <section class="main-section -contato">
+        <h2 class="main-title -second">
+            Contatos
+        </h2>
+
+        <form action="">
+            <label class="main-label" for="name">Nome</label>
+            <input id="nome" type="text" required>
+
+            <label class="main-label" for="mail">Email</label>
+            <input type="email" required>
+
+            <label class="main-label" for="message">Mensagem</label>
+            <textarea id="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <form action="" method="get" class="form-example">
+            <div class="form-example -name">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" required />
+            </div>
+            <div class="form-example -email">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required />
+            </div>
+            <div class="mensage">
+                <label for="text">Mensagem</label>
+                <input type="text" name="mansage" id="mensage">
+            </div>
+            <div class="form-example">
+                <input class="main-button -submit" type="submit" value="Enviar">
+            </div>
+        </form>
     </section>
 
     <footer class="main-footer">
