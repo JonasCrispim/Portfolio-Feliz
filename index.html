@@ -196,24 +196,21 @@
         </p>
     </section>
 
-    <section class="main-section -contato">
-        <h2 class="main-title -second">
-            Contatos
-        </h2>
+    
+    <form class="main-form" action="" method="get">
+        <legend class="main-title -second">Contatos</legend>
+        <label class="main-label" for="name">Nome</label>
+        <input class="main-input" id="nome" type="text" required>
 
-        <form class="main-form" action="" method="get">
-            <label class="main-label" for="name">Nome</label>
-            <input class="main-input" id="nome" type="text" required>
+        <label class="main-label" for="mail">Email</label>
+        <input class="main-input" type="email" required>
 
-            <label class="main-label" for="mail">Email</label>
-            <input class="main-input" type="email" required>
+        <label class="main-label" for="message">Mensagem</label>
+        <textarea class="main-input -textarea" id="message" required></textarea>
 
-            <label class="main-label" for="message">Mensagem</label>
-            <textarea class="main-input -textarea" id="message" required></textarea>
-
-            <button class="main-button -full" type="submit">Enviar</button>
-        </form>
-    </section>
+        <button class="main-button -full" type="submit">Enviar</button>
+    </form>
+    
 
     <footer class="main-footer">
         <a class="action" href="https://www.instagram.com/jonascf_/" target="_blank">

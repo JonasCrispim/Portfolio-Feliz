@@ -27,6 +27,6 @@
 
 .main-button.-full:hover {
     background-color: #f72e4c;
-    transform: scale(1.07); /* Efeito de escala ao passar o mouse */
+    transform: scale(1.05); /* Efeito de escala ao passar o mouse */
     cursor: pointer;
 }
