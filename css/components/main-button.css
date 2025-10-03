@@ -17,15 +17,15 @@
     cursor: pointer;
 }
 
-.main-button.-submit {
-    width: 1360px;
+.main-button.-full {
+    width: 100%;
     font-size: 30px;
     font-family: 'Fira Code';
     font-weight: 300;
-    margin-top: 40px;
+    line-height: 40px;
 }
 
-.main-button.-submit:hover {
+.main-button.-full:hover {
     background-color: #f72e4c;
     transform: scale(1.07); /* Efeito de escala ao passar o mouse */
     cursor: pointer;
